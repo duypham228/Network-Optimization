@@ -1,4 +1,0 @@
-#ifndef GRAPH_GENERATOR
-#define GRAPH_GENERATOR
-
-#endif
