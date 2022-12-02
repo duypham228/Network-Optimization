@@ -1,4 +1,5 @@
 from graphGenerator import *
+from heap import *
 
 print("Start Testing ...")
 print("------------------------------------------------")
@@ -24,8 +25,16 @@ print("------------------------------------------------")
 # print(sparseGraph.isEdge(3,4))
 
 
-denseGraph = denseGraph(5000)
-# print(denseGraph.graph[0])
-for i in range(10):
-    print(len(denseGraph.graph[i]))
-print(len(denseGraph.graph))
+# denseGraph = denseGraph(5000)
+# # print(denseGraph.graph[0])
+# for i in range(10):
+#     print(len(denseGraph.graph[i]))
+# print(len(denseGraph.graph))
+
+heap = Heap(10)
+print(heap.D)
+print(heap.P)
+print(heap.H)
+print(heap.maximum())
+# print(heap)
+
